@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.iMedia.findhospital.DashboardActivity"
+    tools:ignore="MergeRootFrame"
+    android:background="@drawable/backg" >
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Logout"
+        android:textColor="@color/white"
+        android:layout_marginBottom="4dp"
+        android:textSize="30dp"
+        android:background="@drawable/button_bg" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_above="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="37dp"
+        android:background="@color/signupbtn"
+        android:text=" Find a nearest hospital"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_above="@+id/button2"
+       
+        android:layout_margin="20dp"
+        android:layout_marginBottom="431dp"
+        android:background="@color/signinbtn"
+        android:text="Show me medical tips"
+        android:textSize="25dp" />
+
+</RelativeLayout>
+

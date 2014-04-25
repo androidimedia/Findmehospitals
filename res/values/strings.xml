@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Find \n Hospital</string>
+    <string name="title_activity_main">main</string>
+    <string name="action_settings">Logout</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_login_page">LoginPage</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_activity_first_aid">FirstAid</string>
+    <string name="title_activity_map_nearest_hospital">MapNearestHospital</string>
+    <string name="title_activity_show_first_aid">ShowFirstAid</string>
+    <string name="hello_world">Tap two locations in the map</string>
+    <string name="str_tv_distance_time">Distance</string>
+    <string name="title_activity_spalash_screen">SpalashScreen</string>
+
+</resources>
